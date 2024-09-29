@@ -5,6 +5,7 @@ require('mason-lspconfig').setup({
         'eslint',
         'pyright',
         'ts_ls',
+        'jdtls',
     }
 })
 
@@ -45,3 +46,10 @@ require('lspconfig').pyright.setup({
     lsp_attach = lsp_attach,
     capabilities = capabilities,
 })
+
+require('lspconfig').jdtls.setup({
+    lsp_attach = lsp_attach,
+    capabilities = capabilities,
+})
+
+
