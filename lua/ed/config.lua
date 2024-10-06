@@ -33,34 +33,12 @@ vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 
-vim.opt.smartindent = true 
+vim.opt.smartindent = true
 
 vim.opt.wrap = false
 
 vim.opt.updatetime = 250
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+vim.keymap.set("x", "<leader>p", "\"_dP")
 
 

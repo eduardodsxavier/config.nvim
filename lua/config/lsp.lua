@@ -6,6 +6,7 @@ require('mason-lspconfig').setup({
         'pyright',
         'ts_ls',
         'jdtls',
+        'sqlls',
     }
 })
 
@@ -52,4 +53,8 @@ require('lspconfig').jdtls.setup({
     capabilities = capabilities,
 })
 
+require('lspconfig').sqlls.setup({
+    lsp_attach = lsp_attach,
+    capabilities = capabilities,
+})
 

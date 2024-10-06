@@ -9,7 +9,7 @@ It's my firts neovim configuration, so don't expect too much
 - nvim-telescope/telescope.nvim
 - williamboman/mason.nvim
 - williamboman/mason-lspconfig.nvim
-- neovim/nvim-lspconfig"
+- neovim/nvim-lspconfig
 - hrsh7th/cmp-nvim-lsp
 - hrsh7th/nvim-cmp
 - L3MON4D3/LuaSnip
@@ -17,6 +17,6 @@ It's my firts neovim configuration, so don't expect too much
 - rafamadriz/friendly-snippets
   
 ## Change in the future 
-Only add more lsps for diferents lenguages
-But besides that i don't have a plan to change this config in the sort term 
-After some time i will try to change the things that i thing that can be inproved
+Only add more lsps for diferents lenguages.
+But besides that i don't have a plan to change this config in the sort term.
+After some time i will try to change the things that i thing that can be inproved.
