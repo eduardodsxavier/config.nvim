@@ -7,7 +7,7 @@ require("config.lazy")
 
 -- add transparent background
 require("catppuccin").setup({
-    transparent_background = true, -- disables setting the background color.
+--    transparent_background = true, -- disables setting the background color.
 })
 
 -- set relative numbers side bar
