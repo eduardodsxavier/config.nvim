@@ -1,6 +1,13 @@
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
+-- disable mouse click and scrol
+vim.keymap.set("", "<up>", "<nop>", { noremap = true })
+vim.keymap.set("", "<down>", "<nop>", { noremap = true })
+vim.keymap.set("i", "<up>", "<nop>", { noremap = true })
+vim.keymap.set("i", "<down>", "<nop>", { noremap = true })
+
+vim.opt.mouse = ""
 
 -- config lazy.nvim
 require("config.lazy")
