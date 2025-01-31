@@ -7,6 +7,7 @@ require('mason-lspconfig').setup({
         'ts_ls',
         'jdtls',
         'clangd',
+        'rust_analyzer',
     }
 })
 
@@ -54,6 +55,11 @@ require('lspconfig').jdtls.setup({
 })
 
 require('lspconfig').clangd.setup({
+    lsp_attach = lsp_attach,
+    capabilities = capabilities,
+})
+
+require('lspconfig').rust_analyzer.setup({
     lsp_attach = lsp_attach,
     capabilities = capabilities,
 })

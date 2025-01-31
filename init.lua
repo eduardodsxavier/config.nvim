@@ -11,12 +11,3 @@ require('config.harpon')
 require('config.lsp')
 
 require('config.cmp')
-
-
-
-
-
-
-
-
-
